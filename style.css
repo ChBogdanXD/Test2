@@ -212,7 +212,7 @@ h2 {
 /* DIVIDER */
 .divider {
   width: 4px;
-  background: linear-gradient(#4da3ff, #ff4d4d);
+  background: linear-gradient(rgb(172, 32, 13), #0fb11f);
   border-radius: 10px;
   height: 500px;
   align-self: center;
