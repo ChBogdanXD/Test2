@@ -1,61 +1,49 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #111;
-  color: #eee;
-}
-
-/* HEADER */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: #000;
-  display: flex;
-  align-items: center;
-  padding: 15px 30px;
-  border-bottom: 2px solid #333;
-}
-
-/* LOGO LEFT */
-.logo {
-  color: #4da3ff;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* CENTER MENU */
-nav {
-  flex: 1;
+#home {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-nav ul {
-  list-style: none;
+/* SLIDER BOX */
+.slider {
+  position: relative;
+  width: 70%;
+  max-width: 900px;
   display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  align-items: center;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
+.slider img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* ARROWS */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
-nav a:hover {
-  color: #4da3ff;
+.arrow:hover {
+  background: rgba(77,163,255,0.8);
 }
 
-/* SECTIONS */
-section {
-  padding: 120px 40px 60px;
-  min-height: 100vh;
+.left {
+  left: 10px;
 }
 
-h1, h2 {
-  color: #4da3ff;
+.right {
+  right: 10px;
 }
