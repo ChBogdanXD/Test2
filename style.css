@@ -73,8 +73,8 @@ nav a:hover {
 .slider {
   position: relative;
   width: 80%;
-  max-width: 900px;
-  height: 450px;
+  max-width: 1500px;
+  height: 7000px;
   overflow: hidden;
   border-radius: 15px;
 }
